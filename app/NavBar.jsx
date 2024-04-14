@@ -13,6 +13,7 @@ const NavBar = () => {
     { label: "Blogs", href: "/blogs" },
     { label: "Signin", href: "/signin" },
     { label: "Signout", href: "/signout" },
+    { label: "About", href: "/about" },
   ];
   return (
     <nav className="flex space-x-6 border-b mb-5 px-5 h-14 items-center">
