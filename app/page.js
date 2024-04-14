@@ -1,5 +1,9 @@
-import Image from "next/image";
+import BlogComponent from "./pages/blog_component";
 
 export default function Home() {
-  return <div></div>;
+  return (
+    <div>
+      <BlogComponent />
+    </div>
+  );
 }
